@@ -2,6 +2,8 @@ if #Spring.GetAllyTeamList()-1 > 16 then
 	return
 end
 
+local widget = widget ---@type Widget
+
 function widget:GetInfo()
 	return {
 		name = "Ecostats",
